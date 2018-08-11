@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -12,7 +18,6 @@ import (
 	"path/filepath"
 
 	"github.com/davecgh/go-spew/spew"
-
 	"github.com/jesseduffield/gocui"
 	git "gopkg.in/src-d/go-git.v4"
 )
@@ -43,7 +48,7 @@ func homeDirectory() string {
 
 func projectPath(path string) string {
 	gopath := os.Getenv("GOPATH")
-	return filepath.FromSlash(gopath + "/src/github.com/jesseduffield/lazygit/" + path)
+	return filepath.FromSlash(gopath + "/src/github.com/sniperkit/snk.fork.lazygit/" + path)
 }
 
 func devLog(objects ...interface{}) {

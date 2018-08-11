@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 package main
 
 import (

@@ -1,16 +1,19 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 package main
 
 import (
-
 	// "io"
 	// "io/ioutil"
-
 	"runtime"
 	"strings"
 	"time"
 
 	// "strings"
-
 	"github.com/golang-collections/collections/stack"
 	"github.com/jesseduffield/gocui"
 )

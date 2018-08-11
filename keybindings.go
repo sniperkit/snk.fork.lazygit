@@ -1,6 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 package main
 
-import "github.com/jesseduffield/gocui"
+import (
+	"github.com/jesseduffield/gocui"
+)
 
 // Binding - a keybinding mapping a key and modifier to a handler. The keypress
 // is only handled if the given view has focus, or handled globally if the view

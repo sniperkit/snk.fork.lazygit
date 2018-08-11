@@ -1,6 +1,14 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 package main
 
-import "github.com/jesseduffield/gocui"
+import (
+	"github.com/jesseduffield/gocui"
+)
 
 func handleCommitConfirm(g *gocui.Gui, v *gocui.View) error {
 	message := trimmedContent(v)

@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-11 22:28:44.32143264 +0200 CEST m=+0.117617904
+- Status: analyzed
+*/
+
 // lots of this has been directly ported from one of the example files, will brush up later
 
 // Copyright 2014 The gocui Authors. All rights reserved.
